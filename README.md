@@ -11,6 +11,12 @@ let out = pdf_extract::extract_text_from_mem(&bytes).unwrap();
 assert!(out.contains("This is a small demonstration"));
 ```
 
+## Run the example
+
+```bash
+cargo run --example extract some.pdf
+```
+
 ## See also
 
 - https://github.com/elacin/PDFExtract/
